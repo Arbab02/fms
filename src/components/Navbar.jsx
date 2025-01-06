@@ -45,7 +45,7 @@ const navRef = useRef(null);
             {/* <Link href="/" className="text-indigo-900 font-normal text-lg hover:text-pink-700">Home</Link> */}
             <Link href="/Dashboard" className="text-indigo-900 font-normal text-lg hover:text-pink-700">Dashboard</Link>
             <Link href="/FinanceForm" className="text-indigo-900 font-normal text-lg hover:text-pink-700">FinanceForm</Link>
-            <a href="/https://liveblocks-red.vercel.app/" target="_blank" className="text-indigo-900 font-normal text-lg hover:text-pink-700">FinanceForm</a>
+            <a href="/https://liveblocks-red.vercel.app/" target="_blank" className="text-indigo-900 font-normal text-lg hover:text-pink-700">Colloborate</a>
             
           </div>
 
@@ -67,6 +67,7 @@ const navRef = useRef(null);
         {/* <Link href="/" className="block px-4 py-2 text-gray-300  hover:text-indigo-300">Home</Link> */}
         <Link href="/FinanceForm" className="block px-4 py-2 text-gray-300  hover:text-indigo-300">FinanceForm</Link>
         <Link href="/Dashboard" className="block px-4 py-2 text-gray-300  hover:text-indigo-300">Dashboard</Link>
+        <a href="//https://liveblocks-red.vercel.app/" target="_blank" className="block px-4 py-2 text-gray-300  hover:text-indigo-300">Colloborate</a>
        
        
       </div>

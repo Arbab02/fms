@@ -45,6 +45,7 @@ const navRef = useRef(null);
             {/* <Link href="/" className="text-indigo-900 font-normal text-lg hover:text-pink-700">Home</Link> */}
             <Link href="/Dashboard" className="text-indigo-900 font-normal text-lg hover:text-pink-700">Dashboard</Link>
             <Link href="/FinanceForm" className="text-indigo-900 font-normal text-lg hover:text-pink-700">FinanceForm</Link>
+            <a href="/https://liveblocks-red.vercel.app/" target="_blank" className="text-indigo-900 font-normal text-lg hover:text-pink-700">FinanceForm</a>
             
           </div>
 

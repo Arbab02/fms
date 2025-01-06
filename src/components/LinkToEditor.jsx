@@ -1,11 +1,11 @@
-
-
-export default function LinkToEditor() {
+import { useRouter } from 'next/router'
+ 
+export default function Page() {
+  const router = useRouter()
+ 
   return (
-    <div>
-  <div className='mt-9'>
- <a href="https://liveblocks-red.vercel.app/" target="_blank">Link To Editor</a>
-    </div>
-    </div>
-  );
+    <button type="button" onClick={() => router.push('/https://liveblocks-red.vercel.app/')}>
+      Link To Editor
+    </button>
+  )
 }

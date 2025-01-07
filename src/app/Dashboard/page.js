@@ -61,14 +61,14 @@ export default function FinanceDashboard() {
           onClick={exportToExcel}
           className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg shadow"
         >
-            <FaFileExcel className="w-5 h-5" />
+            <FaFileExcel className="w-5 h-5 inline-block" />
           Export to Excel
         </button>
         <button
           onClick={exportToPDF}
           className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg shadow"
         >
-             <FaFilePdf className="w-5 h-5" />
+             <FaFilePdf className="w-5 h-5 inline-block" />
           Export to PDF
         </button>
             <LinkToEditor/>

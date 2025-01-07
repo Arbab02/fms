@@ -8,6 +8,7 @@ import { FaChartBar, FaDollarSign, FaPercent, FaChartPie } from 'react-icons/fa'
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import LinkToEditor from '@/components/LinkToEditor.jsx'
 
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
 const RADAR_COLORS = ['#8884d8', '#82ca9d'];
@@ -68,6 +69,7 @@ export default function FinanceDashboard() {
         >
           Export to PDF
         </button>
+            <LinkToEditor/>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">

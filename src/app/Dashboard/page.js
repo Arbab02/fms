@@ -59,14 +59,14 @@ export default function FinanceDashboard() {
       <div className="flex justify-end gap-4 mb-6">
         <button
           onClick={exportToExcel}
-          className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg shadow"
+          className="bg-green-900 hover:bg-green-800 text-white py-2 px-4 rounded-lg shadow"
         >
             <FaFileExcel className="w-5 h-5 inline-block" />
           Export to Excel
         </button>
         <button
           onClick={exportToPDF}
-          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg shadow"
+          className="bg-red-900 hover:bg-red-800 text-white py-2 px-4 rounded-lg shadow"
         >
              <FaFilePdf className="w-5 h-5 inline-block" />
           Export to PDF

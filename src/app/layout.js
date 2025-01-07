@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from '@/components/Navbar.jsx'
-import LinkToEditor from '@/components/LinkToEditor.jsx'
+// import LinkToEditor from '@/components/LinkToEditor.jsx'
 
 import Footer from '@/components/Footer.jsx'
 // import { ClerkProvider } from '@clerk/nextjs';

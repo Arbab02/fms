@@ -4,7 +4,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
   PieChart, Pie, Cell, LineChart, Line, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar,
 } from 'recharts';
-import { FaChartBar, FaDollarSign, FaPercent, FaChartPie } from 'react-icons/fa';
+import { FaChartBar, FaDollarSign, FaPercent, FaChartPie, Download, FileSpreadsheet } from 'react-icons/fa';
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
@@ -61,12 +61,14 @@ export default function FinanceDashboard() {
           onClick={exportToExcel}
           className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg shadow"
         >
+            <FileSpreadsheet className="w-5 h-5" />
           Export to Excel
         </button>
         <button
           onClick={exportToPDF}
           className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg shadow"
         >
+             <Download className="w-5 h-5" />
           Export to PDF
         </button>
             <LinkToEditor/>

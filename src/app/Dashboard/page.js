@@ -56,19 +56,19 @@ export default function FinanceDashboard() {
     <div id="dashboard" className="min-h-screen bg-gray-200 px-8 py-32">
       <h1 className="text-4xl font-bold text-center mb-8 text-indigo-600">Finance Dashboard</h1>
 
-      <div className="flex justify-end gap-4 mb-6">
+      <div className="flex justify-end gap-4 mb-6 text-sm md:text-base">
         <button
           onClick={exportToExcel}
           className="bg-green-900 hover:bg-green-800 text-white py-2 px-4 rounded-lg shadow"
         >
-            <FaFileExcel className="w-5 h-5 inline-block" />
+            <FaFileExcel className="text-sm md:text-2xl inline-block" />
           Export to Excel
         </button>
         <button
           onClick={exportToPDF}
           className="bg-red-900 hover:bg-red-800 text-white py-2 px-4 rounded-lg shadow"
         >
-             <FaFilePdf className="w-5 h-5 inline-block" />
+             <FaFilePdf className="text-sm md:text-2xl inline-block" />
           Export to PDF
         </button>
             <LinkToEditor/>

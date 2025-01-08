@@ -56,7 +56,7 @@ export default function FinanceDashboard() {
     <div id="dashboard" className="min-h-screen bg-gray-200 px-8 py-32">
       <h1 className="text-4xl font-bold text-center mb-8 text-indigo-600">Finance Dashboard</h1>
 
-      <div className="flex justify-end gap-4 mb-6 text-sm md:text-base">
+      <div className="flex justify-end gap-4 mb-6 text-[7px] md:text-base">
         <button
           onClick={exportToExcel}
           className="bg-green-900 hover:bg-green-800 text-white py-2 px-4 rounded-lg shadow"
